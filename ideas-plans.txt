@@ -1,0 +1,13 @@
+happy --> comedy
+sad --> drama
+romantic --> romance 
+bored --> horror 
+old-->history
+young --> family
+adventerous --> advenrure
+energetic --> thriller
+curious --> mystery
+
+
+https://image.tmdb.org/t/p/w185/
+We could do  get request and add the poster image from the array/hash of the movies that match to the mood

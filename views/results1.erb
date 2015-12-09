@@ -1,0 +1,21 @@
+<!doctype HTML>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+  <body>
+      <h1> <a href="/"> MOVIEMOTIONS</a> </h1>
+
+     <% @movies.names.each do |title, image| %>
+      <% @movies.imdb.each do |link| %>
+        <%=link%>hi
+      <%end%>
+      <%= title %>
+      <img src="<%=image%>" >
+     <% end %>
+      
+          
+  </body>
+</html>
+
+
